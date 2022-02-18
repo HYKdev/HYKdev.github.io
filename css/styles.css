@@ -177,6 +177,7 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  list-style-type: none;
 }
 
 ol,
@@ -237,8 +238,8 @@ sup {
 }
 
 a {
-  color: #bd5d38;
-  text-decoration: underline;
+  color: #140a06;
+  text-decoration: none;
 }
 a:hover {
   color: #974a2d;
@@ -579,7 +580,7 @@ progress {
 
 .initialism {
   font-size: 0.875em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .blockquote {
@@ -11324,8 +11325,8 @@ p.lead {
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  font-family: 'BMJUA';
+  text-transform: none;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -11432,4 +11433,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+@font-face {
+  font-family: 'BMJUA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
